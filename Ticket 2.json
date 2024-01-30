@@ -1,0 +1,127 @@
+[
+    {
+        "ticket_id": 2021,
+        "ticket_date": "Nov 16th 2023",
+        "status": "Approved"
+    },
+    {
+        "ticket_id": 2022,
+        "ticket_date": "Dec 29th 2023",
+        "status": "Approved"
+    },
+    {
+        "ticket_id": 2023,
+        "ticket_date": "Jan 16th 2024",
+        "status": "Declined"
+    },
+    {
+        "ticket_id": 2024,
+        "ticket_date": "Feb 24th 2024",
+        "status": "Declined"
+    },
+    {
+        "ticket_id": 2025,
+        "ticket_date": "Feb 4th 2024",
+        "status": "Approved"
+    },
+    {
+        "ticket_id": 2026,
+        "ticket_date": "Dec 31st 2023",
+        "status": "Approved"
+    },
+    {
+        "ticket_id": 2027,
+        "ticket_date": "Feb 2nd 2024",
+        "status": "Approved"
+    },
+    {
+        "ticket_id": 2028,
+        "ticket_date": "Feb 24th 2024",
+        "status": "Declined"
+    },
+    {
+        "ticket_id": 2029,
+        "ticket_date": "Feb 11th 2024",
+        "status": "Declined"
+    },
+    {
+        "ticket_id": 2030,
+        "ticket_date": "Jan 20th 2024",
+        "status": "Approved"
+    },
+    {
+        "ticket_id": 2031,
+        "ticket_date": "Feb 21st 2024",
+        "status": "Approved"
+    },
+    {
+        "ticket_id": 2032,
+        "ticket_date": "Nov 28th 2023",
+        "status": "Approved"
+    },
+    {
+        "ticket_id": 2033,
+        "ticket_date": "Jan 23rd 2024",
+        "status": "Declined"
+    },
+    {
+        "ticket_id": 2034,
+        "ticket_date": "Nov 12th 2023",
+        "status": "Declined"
+    },
+    {
+        "ticket_id": 2035,
+        "ticket_date": "Feb 22nd 2024",
+        "status": "Approved"
+    },
+    {
+        "ticket_id": 2036,
+        "ticket_date": "Dec 28th 2023",
+        "status": "Approved"
+    },
+    {
+        "ticket_id": 2037,
+        "ticket_date": "Jan 7th 2024",
+        "status": "Declined"
+    },
+    {
+        "ticket_id": 2038,
+        "ticket_date": "Jan 3rd 2024",
+        "status": "Declined"
+    },
+    {
+        "ticket_id": 2039,
+        "ticket_date": "Nov 29th 2023",
+        "status": "Declined"
+    },
+    {
+        "ticket_id": 2040,
+        "ticket_date": "Feb 15th 2024",
+        "status": "Declined"
+    },
+    {
+        "ticket_id": 2041,
+        "ticket_date": "Feb 14th 2024",
+        "status": "Approved"
+    },
+    {
+        "ticket_id": 2042,
+        "ticket_date": "Nov 17th 2023",
+        "status": "Declined"
+    },
+    {
+        "ticket_id": 2043,
+        "ticket_date": "Jan 7th 2024",
+        "status": "Approved"
+    },
+    {
+        "ticket_id": 2044,
+        "ticket_date": "Feb 19th 2024",
+        "status": "Approved"
+    },
+    {
+        "ticket_id": 2045,
+        "ticket_date": "Feb 22nd 2024",
+        "status": "Declined"
+    }
+]

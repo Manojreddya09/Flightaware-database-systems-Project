@@ -1,0 +1,82 @@
+[
+    {
+        "booking_id": 8001,
+        "flight_id": 201,
+        "booking_date": "Feb 5th 24",
+        "passenger_id": 130,
+        "seat_number": "55",
+        "airline_id": 311
+    },
+    {
+        "booking_id": 8002,
+        "flight_id": 202,
+        "booking_date": "Feb 21st 24",
+        "passenger_id": 131,
+        "seat_number": "16",
+        "airline_id": 312
+    },
+    {
+        "booking_id": 8003,
+        "flight_id": 203,
+        "booking_date": "Feb 18th 24",
+        "passenger_id": 132,
+        "seat_number": "39",
+        "airline_id": 313
+    },
+    {
+        "booking_id": 8004,
+        "flight_id": 204,
+        "booking_date": "Feb 7th 24",
+        "passenger_id": 133,
+        "seat_number": "47",
+        "airline_id": 314
+    },
+    {
+        "booking_id": 8005,
+        "flight_id": 205,
+        "booking_date": "Jan 6th 24",
+        "passenger_id": 134,
+        "seat_number": "54",
+        "airline_id": 315
+    },
+    {
+        "booking_id": 8006,
+        "flight_id": 206,
+        "booking_date": "Feb 12th 24",
+        "passenger_id": 135,
+        "seat_number": "09",
+        "airline_id": 316
+    },
+    {
+        "booking_id": 8007,
+        "flight_id": 207,
+        "booking_date": "Feb 20th 24",
+        "passenger_id": 136,
+        "seat_number": "94",
+        "airline_id": 317
+    },
+    {
+        "booking_id": 8008,
+        "flight_id": 208,
+        "booking_date": "Jan 18th 24",
+        "passenger_id": 137,
+        "seat_number": "22",
+        "airline_id": 318
+    },
+    {
+        "booking_id": 8009,
+        "flight_id": 209,
+        "booking_date": "Jan 29th 24",
+        "passenger_id": 138,
+        "seat_number": "22",
+        "airline_id": 319
+    },
+    {
+        "booking_id": 8010,
+        "flight_id": 210,
+        "booking_date": "Jan 22nd 24",
+        "passenger_id": 139,
+        "seat_number": "46",
+        "airline_id": 320
+    }
+]

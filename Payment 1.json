@@ -1,0 +1,122 @@
+[
+    {
+        "payment_id": 300001,
+        "booking_id": 8001,
+        "payment_method": "Debit card",
+        "amount": "3013",
+        "payment_date": "Nov 7th 23",
+        "payment_status": "Completed"
+    },
+    {
+        "payment_id": 300002,
+        "booking_id": 8002,
+        "payment_method": "Debit card",
+        "amount": "6524",
+        "payment_date": "Jan 23rd 24",
+        "payment_status": "Refunded"
+    },
+    {
+        "payment_id": 300003,
+        "booking_id": 8003,
+        "payment_method": "Bank transfer",
+        "amount": "9627",
+        "payment_date": "Dec 28th 23",
+        "payment_status": "Failed"
+    },
+    {
+        "payment_id": 300004,
+        "booking_id": 8004,
+        "payment_method": "Credit card",
+        "amount": "0786",
+        "payment_date": "Dec 12th 23",
+        "payment_status": "Refunded"
+    },
+    {
+        "payment_id": 300005,
+        "booking_id": 8005,
+        "payment_method": "Credit card",
+        "amount": "8510",
+        "payment_date": "Nov 8th 23",
+        "payment_status": "Failed"
+    },
+    {
+        "payment_id": 300006,
+        "booking_id": 8006,
+        "payment_method": "Net Banking",
+        "amount": "2156",
+        "payment_date": "Dec 5th 23",
+        "payment_status": "Failed"
+    },
+    {
+        "payment_id": 300007,
+        "booking_id": 8007,
+        "payment_method": "Net Banking",
+        "amount": "7106",
+        "payment_date": "Dec 29th 23",
+        "payment_status": "Refunded"
+    },
+    {
+        "payment_id": 300008,
+        "booking_id": 8008,
+        "payment_method": "Bank transfer",
+        "amount": "1516",
+        "payment_date": "Nov 20th 23",
+        "payment_status": "Completed"
+    },
+    {
+        "payment_id": 300009,
+        "booking_id": 8009,
+        "payment_method": "Bank transfer",
+        "amount": "0367",
+        "payment_date": "Dec 5th 23",
+        "payment_status": "Refunded"
+    },
+    {
+        "payment_id": 300010,
+        "booking_id": 8010,
+        "payment_method": "Net Banking",
+        "amount": "7577",
+        "payment_date": "Nov 26th 23",
+        "payment_status": "Pending"
+    },
+    {
+        "payment_id": 300011,
+        "booking_id": 8011,
+        "payment_method": "Credit card",
+        "amount": "0490",
+        "payment_date": "Dec 7th 23",
+        "payment_status": "Failed"
+    },
+    {
+        "payment_id": 300012,
+        "booking_id": 8012,
+        "payment_method": "Credit card",
+        "amount": "5611",
+        "payment_date": "Dec 10th 23",
+        "payment_status": "Completed"
+    },
+    {
+        "payment_id": 300013,
+        "booking_id": 8013,
+        "payment_method": "Credit card",
+        "amount": "6803",
+        "payment_date": "Nov 23rd 23",
+        "payment_status": "Refunded"
+    },
+    {
+        "payment_id": 300014,
+        "booking_id": 8014,
+        "payment_method": "Net Banking",
+        "amount": "4582",
+        "payment_date": "Jan 24th 24",
+        "payment_status": "Pending"
+    },
+    {
+        "payment_id": 300015,
+        "booking_id": 8015,
+        "payment_method": "Bank transfer",
+        "amount": "1748",
+        "payment_date": "Nov 4th 23",
+        "payment_status": "Pending"
+    }
+]

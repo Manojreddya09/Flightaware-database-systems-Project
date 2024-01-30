@@ -1,0 +1,21 @@
+aircraft_id,model,capacity,airline_id
+1,Altima,537,317
+2,Mustang,878,308
+3,Roadster,144,305
+4,Countach,560,318
+5,Expedition,385,302
+6,PT Cruiser,333,319
+7,A4,134,319
+8,V90,121,312
+9,Prius,086,310
+10,Expedition,748,312
+11,Expedition,667,320
+12,Hoota,328,317
+13,Camry,563,316
+14,Model S,917,320
+15,Malibu,181,310
+16,Challenger,207,319
+17,Jetta,014,317
+18,Charger,701,317
+19,Wrangler,965,320
+20,Camry,966,301

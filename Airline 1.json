@@ -1,0 +1,85 @@
+[
+    {
+        "airline_id": 301,
+        " airline_name": "Indigo"
+    },
+    {
+        "airline_id": 302,
+        " airline_name": "Ethiad"
+    },
+    {
+        "airline_id": 303,
+        " airline_name": "Lufthansa"
+
+    },
+    {
+        "airline_id": 304,
+        " airline_name": "JetBlue"
+        
+    },
+    {
+        "airline_id": 305,
+        " airline_name": "British Airways"
+        
+    },
+    {
+        "airline_id": 306,
+        " airline_name": "Turkish Airlines"   
+    },
+    {
+        "airline_id": 307,
+        " airline_name": "Vistara"
+    },
+    {
+        "airline_id": 308,
+        " airline_name": "American Airlines"
+    },
+    {
+        "airline_id": 309,
+        " airline_name": "United"
+    },
+    {
+        "airline_id": 310,
+        " airline_name": "Delta"
+    },
+    {
+        "airline_id": 311,
+        " airline_name": "Ethopia airlines"
+    },
+    {
+        "airline_id": 312,
+        " airline_name": "Finair"
+    },
+    {
+        "airline_id": 313,
+        " airline_name": "Gulf Airlines"
+    },
+    {
+        "airline_id": 314,
+        " airline_name": "Russian Airlines"
+    },
+    {
+        "airline_id": 315,
+        " airline_name": "THAI"
+    },
+    {
+        "airline_id": 316,
+        " airline_name": "Oman Air"
+    },
+    {
+        "airline_id": 317,
+        " airline_name": "Middle East Airlines "
+    },
+    {
+        "airline_id": 318,
+        " airline_name": "easyjet"
+    },
+    {
+        "airline_id": 319,
+        " airline_name": "Lux Air"
+    },
+    {
+        "airline_id": 320,
+        " airline_name": "KLM"
+    }
+]

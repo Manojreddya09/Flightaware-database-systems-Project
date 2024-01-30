@@ -1,0 +1,21 @@
+flight_id,flight_status,arrival_time,departure_time
+1331,ontime,01:00,02:00
+1441,delayed,01:15,01:40
+1551,ontime,04:14,06:14
+1661,delayed,21:30,22:30
+1771,ontime,22:25,23:25
+1881,ontime,12:34,02:34
+1991,delayed,11:42,13:42
+2001,ontime,07:00,10:00
+2111,ontime,08:15,09:00
+2222,delayed,00:00,02:00
+2321,ontime,05:15,07:15
+2322,delayed,17:18,19:18
+2333,ontime,16:20,18:20
+2344,delayed,00:00,                        03:00
+2355,ontime,02:25,03:25
+2366,ontime,06:30,08:15
+2377,delayed,07:20,07:44
+2388,ontime,08:55,10:05
+2399,ontime,11:24,13:02
+2455,delayed,12:25,14:12
