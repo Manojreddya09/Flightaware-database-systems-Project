@@ -1,0 +1,213 @@
+Aircraft table:
+
+formula: =CONCAT("insert into aircraft values (",A2,",",B2,",",C2,",",D2,");")
+
+insert into aircraft values (1,'Altima',537,317);
+insert into aircraft values (2,'Mustang',878,308);
+insert into aircraft values (3,'Roadster',144,305);
+insert into aircraft values (4,'Countach',560,318);
+insert into aircraft values (5,'Expeditional',385,302);
+insert into aircraft values (6,'PTCruiser',333,319);
+insert into aircraft values (7,'Arizon',134,319);
+insert into aircraft values (8,'Victor',121,312);
+insert into aircraft values (9,'Prius',86,310);
+insert into aircraft values (10,'Expedition',748,312);
+insert into aircraft values (11,'Expeditionl',667,320);
+insert into aircraft values (12,'Hoota',328,317);
+insert into aircraft values (13,'Camry',563,316);
+insert into aircraft values (14,'ModelS',917,320);
+insert into aircraft values (15,'Malibu',181,310);
+insert into aircraft values (16,'Challenger',207,319);
+insert into aircraft values (17,'Jetta',14,317);
+insert into aircraft values (18,'Charger',701,317);
+insert into aircraft values (19,'Wrangler',965,320);
+insert into aircraft values (20,'Camry',966,301);
+
+
+Airline table:
+
+formula: =CONCAT("insert into airline values(",A2,",",B2,");")
+
+insert into airline values(301,"Indigo");
+insert into airline values(302,"Ethiad");
+insert into airline values(303,"Lufthansa");
+insert into airline values(304,"JetBlue");
+insert into airline values(305,"British Airways");
+insert into airline values(306,"Turkish Airlines");
+insert into airline values(307,"Vistara");
+insert into airline values(308,"American Airlines");
+insert into airline values(309,"United");
+insert into airline values(310,"Delta");
+insert into airline values(311,"Ethopia airlines");
+insert into airline values(312,"Finair");
+insert into airline values(313,"Gulf Airlines");
+insert into airline values(314,"Russian Airlines");
+insert into airline values(315,"THAI");
+insert into airline values(316,"Oman Air");
+insert into airline values(317,"Middle East Airlines");
+insert into airline values(318,"easyjet");
+insert into airline values(319,"Lux Air");
+
+Airport table
+
+formula : =CONCAT("insert into airport values(",A2,",",B2,",",C2,",",D2," );")
+
+insert into airport values(21,"Olive","India","Schmittport",2455 );
+insert into airport values(22,"Matt","Liechtenstein","EastMelvina",2399 );
+insert into airport values(23,"Phillip","Nicaragua","Marccester",2388 );
+insert into airport values(24,"Angelo","Rwanda","Ernserberg",2377);
+insert into airport values(25,"Shelley","India","FortSilasfield",2366 );
+insert into airport values(26,"Verna","Mozambique","LakeCobyview",2355 );
+insert into airport values(27,"Claude","Togo","FortJonasstead",2344 );
+insert into airport values(28,"Carl","Mauritius","CarsonCity",2333 );
+insert into airport values(29,"Beatrice","Uzbekistan","LakeBella",2322 );
+insert into airport values(30,"Tonya","Niger","Angelport",2321 );
+insert into airport values(31,"Chester","Maldives","Ferneland",2222 );
+insert into airport values(32,"Lloyd","Niue","PortTimmothy",2111 );
+insert into airport values(33,"Douglas","Nauru","SouthHortense",2001 );
+insert into airport values(34,"Jodi","Senegal","FortChristophetown",1991 );
+insert into airport values(35,"Olivia","Montserrat","North",1881);
+insert into airport values(36,"Marta","Kiribati","Krisstad",1771 );
+insert into airport values(37,"Beulah","ElSalvador","FortBransonberg",1661 );
+insert into airport values(38,"Paul","Haiti","Kennewick",1551 );
+insert into airport values(39,"Tricia","Fiji","RochesterHills",1441 );
+insert into airport values(40,"Dallas","Namibia","Strosinworth",1331 );
+
+Booking table
+
+formula : =CONCAT("insert into booking values(",A2,",",B2,",",C2,",",D2,",",E2,",",F2,");")
+
+insert into booking values(8001,'2024-02-05',50,130,1331,311);
+insert into booking values(8002,'2024-02-21',51,131,1441,312);
+insert into booking values(8003,'2024-02-18',52,132,1551,313);
+insert into booking values(8004,'2024-02-07',53,133,1661,314);
+insert into booking values(8005,'2024-01-06',54,134,1771,315);
+insert into booking values(8006,'2024-02-12',55,135,1881,316);
+insert into booking values(8007,'2024-02-20',56,136,1991,317);
+insert into booking values(8008,'2024-01-18',57,137,2001,318);
+insert into booking values(8009,'2024-01-29',58,138,2111,319);
+insert into booking values(8010,'2024-01-22',59,139,2222,320);
+insert into booking values(8011,'2024-03-21',60,120,2321,301);
+insert into booking values(8012,'2024-02-12',61,121,2322,302);
+insert into booking values(8013,'2024-03-24',62,122,2333,303);
+insert into booking values(8014,'2024-01-27',63,123,2344,304);
+insert into booking values(8015,'2024-03-23',64,124,2355,305);
+insert into booking values(8016,'2024-01-03',65,125,2366,306);
+insert into booking values(8017,'2024-01-13',66,126,2377,307);
+insert into booking values(8018,'2024-03-29',67,127,2388,308);
+insert into booking values(8019,'2024-03-16',68,128,2399,309);
+insert into booking values(8020,'2024-03-24',69,129,2455,310);
+
+flight table:
+
+formula: =CONCAT("insert into flight values(",A2,",",B2,",",C2,",",D2,");")
+
+insert into flight values(1331,'ontime','2023-11-20 01:00:00','2023-11-21 02:00:00',5,318);
+insert into flight values(1441,'delayed','2024-1-10 01:15:00','2024-1-10 01:40:00',6,301);
+insert into flight values(1551,'ontime','2023-12-12 04:14:00','2023-12-12 06:14:00',1,303);
+insert into flight values(1661,'delayed','2023-10-22 21:30:00','2023-10-22 22:30:00',2,305);
+insert into flight values(1771,'ontime','2024-02-10 22:25:00','2024-02-10 23:25:00',3,307);
+insert into flight  values(1881,'ontime','2024-01-25 12:34:00','2024-01-25 02:34:00',7,302);
+insert into flight  values(1991,'delayed','2024-01-15 11:42:00','2024-01-15 13:42:00',4,304);
+insert into flight  values(2001,'ontime','2023-010-08 07:00:00','2023-010-08 10:00:00',20,306);
+insert into flight values(2111,'ontime','2024-01-01 08:15:00','2024-01-01 09:00:00',15,309);
+insert into flight  values(2222,'delayed','2024-02-02 00:00:00','2024-02-02  02:00:00',10,311);
+insert into flight  values(2321,'ontime','2023-10-10 05:15:00','2023-10-10 07:15:00',11,308);
+insert into flight  values(2322,'delayed','2023-11-24 17:18:00','2023-11-24 19:18:00',4,308);
+insert into flight  values(2333,'ontime','2024-01-10 16:20:00','2024-01-10 18:20:00',8,312);
+insert into flight  values(2344,'delayed','2023-11-15 00:00:00','2023-11-15 03:00:00',9,315);
+insert into flight  values(2355,'ontime','2024-01-02 02:25:00','2024-01-02 03:25:00',13,317);
+insert into flight  values(2366,'ontime','2024-01-06 06:30:00','2024-01-06 08:15:00',14,313);
+insert into flight  values(2377,'delayed','2024-01-16 07:20:00','2024-01-16 07:44:00',12,319);
+insert into flight  values(2388,'ontime','2024-01-18 08:55:00','2024-01-18 10:05:00',17,314);
+insert into flight  values(2399,'ontime','2024-01-28 11:24:00','2024-01-28 13:02:00',19,316);
+insert into flight  values(2455,'delayed','2024-02-08 12:25:00','2024-02-08 14:12:00',16,310);
+
+passenger table
+
+formula: =CONCAT("insert into passengervalues(",A2,",",B2,",",C2,",",E2,",",F2,",",G2,");")
+
+
+
+insert into passenger values(121,'Glenda','Rosenbaum','Glenda65@hotmail.com',+108137932,2021);
+insert into passenger values(122,'Nathan','Gibson','Nathan.Gibson8@gmail.com',+132810302,2022);
+insert into passenger values(123,'Ida','Jast','Ida_Jast22@yahoo.com',+10328812,2023);
+insert into passenger values(124,'Essie','Bednar','Essie_Bednar@gmail.com,'+148037303,2024);
+insert into passenger values(125,'Irvin','Haag','Irvin_Haag48@yahoo.com',+183910753,2025);
+insert into passenger values(126,'Dawn','Steuber','Dawn.Steuber@gmail.com',+154654077,2026);
+insert into passenger values(127,'Robyn','Cartwright','Robyn_Cartwright6@yahoo.com',+132714861,2027);
+insert into passenger values(128,'Bobby','Hane','Bobby.Hane@yahoo.com',+197734245,2028);
+insert into passenger values(129,'Byron','Friesen','Byron46@gmail.com',+133515932,2029);
+insert into passenger values(130,'Mona','Pagac','Mona95@hotmail.com',+140530314,2030);
+insert into passenger values(131,'Julian','Ritchie','Julian_Ritchie@hotmail.com',+141778043,2031);
+insert into passenger values(132,'Cynthia','Wiza','Cynthia.Wiza29@yahoo.com',+103879270,2032);
+insert into passenger values(133,'Wade','Fay','Wade11@gmail.com',+193372889,2033);
+insert into passenger values(134,'Craig','Fritsch','Craig_Fritsch46@hotmail.com',+158424853,2034);
+insert into passenger values(135,'Sheldon','Ryan','Sheldon_Ryan53@hotmail.com',+125438769,2035);
+insert into passenger values(136,'Rachael','Friesen','Rachael.Friesen91@yahoo.com',+185262370,2036);
+insert into passenger values(137,'Nelson','Ondricka','Nelson_Ondricka@yahoo.com',+185318375,2037);
+insert into passenger values(138,'Dewey','Runolfsdottir','Dewey_Runolfsdottir@yahoo.com',+170531952,2038);
+insert into passenger values(139,'Christie','Walter','Christie.Walter@hotmail.com',+180634361,2039);
+insert into passenger values(140,'Gertrude','Rippin','Gertrude30@gmail.com',+108146350,2040);
+
+payment table
+
+formula: =CONCAT("insert into payment values(",A2,",",B2,",",C2,",",D2,",",E2,",",F2,");")
+
+insert into payment values(300001,'Debit card',3013,'2023-11-07','Completed',8001);
+insert into payment values(300002,'Debit card',6524,'2024-01-23','Refunded',8002);
+insert into payment values(300003,'Bank transfer',9627,'2023-12-28','Failed',8003);
+insert into payment values(300004,'Credit card',7086,'2023-12-12','Refunded',8004);
+insert into payment values(300005,'Credit card',8510,'2023-11-08','Failed',8005);
+insert into payment values(300006,'Net Banking',2156,'2023-12-05','Failed',8006);
+insert into payment values(300007,'Net Banking',7106,'2023-12-29','Refunded',8007);
+insert into payment values(300008,'Bank transfer',1516,'2023-11-20','Completed',8008);
+insert into payment values(300009,'Bank transfer',3067,'2023-12-05','Refunded',8009);
+insert into payment values(300010,'Net Banking',7577,'2023-11-26','Pending',8010);
+insert into payment values(300011,'Credit card',4090,'2023-12-07','Failed',8011);
+insert into payment values(300012,'Credit card',5611,'2023-12-10','Completed',8012);
+insert into payment values(300013,'Credit card',6803,'2023-11-23','Refunded',8013);
+insert into payment values(300014,'Net Banking',4582,'2024-01-24','Pending',8014);
+insert into payment values(300015,'Bank transfer',1748,'2023-11-04','Pending',8015);
+insert into payment values(300016,'Net Banking',1124,'2023-11-28','Completed',8016);
+insert into payment values(300017,'Bank transfer',2476,'2023-12-05','Pending',8017);
+insert into payment values(300018,'Bank transfer',7444,'2024-01-02','Refunded',8018);
+insert into payment values(300019,'Credit card',9160,'2023-11-30','Completed',8019);
+insert into payment values(300020,'Bank transfer',4041,'2024-01-04','Pending',8020);
+
+ticket table
+
+formula: =CONCAT("insert into ticket values(",A2,",",B2,",",C2,");")
+
+insert into ticket values(2021,'2023-6-16',"Approved");
+insert into ticket values(2022,'2023-12-29',"Approved");
+insert into ticket values(2023,'2024-1-16',"Declined");
+insert into ticket values(2024,'2024-2-24',"Declined");
+insert into ticket values(2025,'2024-2-4',"Approved");
+insert into ticket values(2026,'2023-12-31',"Approved");
+insert into ticket values(2027,'2024-2-2',"Approved");
+insert into ticket values(2028,'2024-2-24',"Declined");
+insert into ticket values(2029,'2024-2-11',"Declined");
+insert into ticket values(2030,'2024-1-20',"Approved");
+insert into ticket values(2031,'2024-2-21',"Approved");
+insert into ticket values(2032,'2023-11-28',"Approved");
+insert into ticket values(2033,'2024-1-23',"Declined");
+insert into ticket values(2034,'2023-11-12',"Declined");
+insert into ticket values(2035,'2024-2-22',"Approved");
+insert into ticket values(2036,'2023-12-28',"Approved");
+insert into ticket values(2037,'2024-1-7',"Declined");
+insert into ticket values(2038,'2024-1-3',"Declined");
+insert into ticket values(2039,'2023-11-29',"Declined");
+insert into ticket values(2040,'2024-2-15',"Declined");
+
+
+
+
+
+
+
+
+
+
+
+
