@@ -1,0 +1,74 @@
+Two insert statements:
+->Inserting into airline table
+INSERT INTO airline (airline_id, airline_name) VALUES (320, 'Southwest');
+
+->Instering into passenger table
+INSERT INTO passenger (passenger_id, first_name, last_name, email, mobile_number) VALUES (141, 'Slice', 'Mary','slice@email.com',+131245423);
+
+Two update statements:
+->Updating an entry in airport table
+UPDATE airport SET airport_city = 'Chicago' WHERE airport_id = 21;
+
+->Updating an entry in aircraft table
+UPDATE aircraft SET capacity = 202 WHERE aircraft_id = 17;
+
+Delete statement:
+-> deleting an entry in passenger table
+DELETE FROM passenger WHERE passenger_id = 141;
+
+Simple select statement:
+-> using select on booking table
+SELECT booking_id, booking_date, seat_number, passenger_id, flight_id, airline_id, ticket_id
+FROM booking;
+
+
+Two join statements:
+SELECT f.flight_id, f.flight_status, f.arrival_time, f.departure_time,
+ f.aircraft_id, a.airline_id, a.airline_name
+FROM flight f
+JOIN airline a ON f.airline_id = a.airline_id;
+
+
+SELECT b.booking_id, b.booking_date, b.seat_number,
+    p.passenger_id, p.first_name, p.last_name,
+    f.flight_id, f.flight_status, f.arrival_time, f.departure_time,
+    a.airline_id, a.airline_name,
+     t.ticket_id, t.ticket_status
+     FROM booking b
+     JOIN passenger p ON b.passenger_id = p.passenger_id
+     JOIN flight f ON b.flight_id = f.flight_id
+     JOIN airline a ON b.airline_id = a.airline_id
+     JOIN ticket t ON b.ticket_id = t.ticket_id;
+
+Two summary statements:
+SELECT f.flight_status, COUNT(b.booking_id) AS total_bookings
+FROM booking b
+JOIN flight f ON b.flight_id = f.flight_id
+GROUP BY f.flight_status;
+
+SELECT AVG(bookings_per_passenger) AS avg_bookings_per_passenger
+FROM (
+    SELECT p.passenger_id, COUNT(b.booking_id) AS bookings_per_passenger
+    FROM passenger p
+    LEFT JOIN booking b ON p.passenger_id = b.passenger_id
+    GROUP BY p.passenger_id
+) AS subquery;
+
+
+Multi table query:
+SELECT b.booking_id, b.booking_date, b.seat_number,
+p.passenger_id, p.first_name, p.last_name,
+f.flight_id, f.flight_status, f.arrival_time, f.departure_time
+FROM booking b
+JOIN passenger p ON b.passenger_id = p.passenger_id
+JOIN flight f ON b.flight_id = f.flight_id;
+
+Query of choice:
+SELECT b.booking_id, b.booking_date, b.seat_number,
+p.passenger_id, p.first_name, p.last_name,
+f.flight_id, f.flight_status, f.arrival_time, f.departure_time
+FROM booking b
+JOIN passenger p ON b.passenger_id = p.passenger_id
+JOIN flight f ON b.flight_id = f.flight_id
+WHERE p.last_name = 'Fay';
+
